@@ -1,0 +1,29 @@
+.song{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+    img{
+        width: 20%;
+        margin: 2rem;
+        border-radius: 50%;
+
+    }
+    
+    .charkh{
+        animation: rotation 30s infinite linear;
+        @keyframes rotation {
+            from{
+                transform: rotate(0deg);
+            }to{
+                transform: rotate(360deg);
+            }
+            
+        }
+    }
+
+    .nacharkh{
+        transition: 0.7s ease all;
+        transform: rotate(0deg);
+    }
+}

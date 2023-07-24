@@ -1,0 +1,44 @@
+.library {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 100%;
+    background-color: rgb(181, 188, 189);
+    overflow: scroll;
+    box-shadow: 0px 0px 24px black;
+    text-align: center;
+    transition: all 0.4s ease;
+    h2{
+        margin: 20px;
+    }
+    .SongLibrary:hover{
+        background-color: tomato;
+        transition: 0.3s ease all;
+    }
+    .SongLibrary{
+        cursor: pointer;
+        display: flex;
+        padding: 10px;
+        background-color: rgb(107, 172, 161);
+        margin: 10px;
+        align-items: center;
+        border-radius: 8px;
+        img{
+            width: 7rem;
+            margin: 10px;
+        }
+        .liitem{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        ;
+    }
+}
+
+.baste{
+    transform: translate(-100%);
+    box-shadow: 0px 0px 0px 0px;
+}

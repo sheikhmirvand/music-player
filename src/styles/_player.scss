@@ -1,0 +1,51 @@
+.player {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .controller {
+        display: flex;
+        margin: 2rem;
+        width: 80%;
+        input {
+            width: 100%;
+        }
+        p {
+            margin: 14px;
+        }
+        .volume{
+            max-width: 100px;
+        }
+        .timeShow{
+            cursor: pointer;
+        }
+        
+    }
+    .playPuse {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: space-between;
+        p,
+        h2 {
+            cursor: pointer;
+        }
+        .bargasht {
+            transform: rotate(180deg);
+        }
+    }
+    .speed{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: 10px 0px;
+        align-items: center;
+        button{
+            cursor: pointer;
+            padding: 10px;
+            background: rgb(107, 172, 161);
+            border: none;
+            border-radius: 9px;
+        }
+    }
+}
